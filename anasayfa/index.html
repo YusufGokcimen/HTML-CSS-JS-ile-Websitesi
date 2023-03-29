@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SOFT BİSİKLET</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        Soft Bisiklet
+        <div class="yazi">Bisiklet Satış ve Eğitim Sitesi</div>
+      </div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="./index.html" class="active">Anasayfa</a>
+          </li>
+          <li>
+            <a href="https://akademi.softito.com.tr/" target="_blank"
+              >Eğitimler</a
+            >
+          </li>
+          <li>
+            <a href="/iletisim/iletisim.html" target="_blank">İletişim</a>
+          </li>
+          <li>
+            <a href="">Hakkımızda</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="search">
+          <h1>Tüm Ürünler</h1>
+          <input
+            type="text"
+            name=""
+            id="find"
+            placeholder="aramaya başla...."
+            onkeyup="search()"
+          />
+        </div>
+        <div class="product-list">
+          <div class="product">
+            <img src="https://r.resimlink.com/gOr1jaR94Gl.jpg" />
+            <h3>Yol Bisikletleri</h3>
+            <h4>₺1000.00 - ₺12.000</h4>
+          </div>
+          <div class="product">
+            <img src="https://r.resimlink.com/eZyHqolgb7.jpg" />
+            <h3>Elektrikli Bisikletler</h3>
+            <h4>₺1000.00 - ₺12.000</h4>
+          </div>
+          <div class="product">
+            <img src="https://r.resimlink.com/JBkaQ.jpg" />
+            <h3>Dağ Bisikletleri</h3>
+            <h4>₺1000.00 - ₺12.000</h4>
+          </div>
+          <div class="product">
+            <img src="https://r.resimlink.com/RfM6yrPzcGUg.jpg" />
+            <h3>Çocuk Bisikletleri</h3>
+            <h4>₺1000.00 - ₺12.000</h4>
+          </div>
+          <div class="product">
+            <img src="https://r.resimlink.com/IFtVwlYn6BC-.jpg" />
+            <h3>Trekking Bisiktlerleri</h3>
+            <h4>₺1000.00 - ₺12.000</h4>
+          </div>
+          <div class="product">
+            <img src="https://r.resimlink.com/M2YLOT.webp" />
+            <h3>Şehir Bisikletleri</h3>
+            <h4>₺1000.00 - ₺12.000</h4>
+          </div>
+          <div class="product">
+            <img src="https://r.resimlink.com/MbE1LP.webp" />
+            <h3>Katlanır Bisikletler</h3>
+            <h4>₺1000.00 - ₺12.000</h4>
+          </div>
+          <div class="product">
+            <img src="https://r.resimlink.com/TuzOr.jpg" />
+            <h3>BMX Bisiklet</h3>
+            <h4>₺1000.00 - ₺12.000</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clock-container">
+      <h2>Tarih ve Saat</h2>
+      <div class="clock">
+        <div class="items">
+          <p id="hour"></p>
+        </div>
+        <div class="items">
+          <p id="minute"></p>
+        </div>
+        <div class="items">
+          <p id="second"></p>
+        </div>
+      </div>
+      <div class="date"><p id="tarih"></p></div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+.contact-box {
+  background: #fff;
+  display: flex;
+}
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background: #17038a;
+  color: #fff;
+  position: relative;
+}
+h1 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.container p {
+  margin-bottom: 40px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.input-row .input-group {
+  flex-basis: 45%;
+}
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+label {
+  margin-bottom: 6px;
+  font-size: larger;
+  display: block;
+  color: #17038a;
+}
+button {
+  background: #17038a;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.contact-left h3 {
+  color: #2a2a30;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.contact-right h3 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.contact-right table {
+  font-size: 20px;
+}
+
+table {
+  margin-left: 30px;
+}
+
+tr td:first-child {
+  padding-right: 20px;
+}
+tr td {
+  padding-top: 20px;
+}
+
+.icons .fa-envelope {
+  position: absolute;
+  left: 20px;
+  top: 105px;
+}
+.icons .fa-phone {
+  position: absolute;
+  left: 20px;
+  top: 160px;
+}
+.icons .fa-location-dot {
+  position: absolute;
+  left: 20px;
+  top: 222px;
+}
